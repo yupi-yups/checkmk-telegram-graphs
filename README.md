@@ -9,7 +9,9 @@ cd ~/local/share/check_mk/notifications/
 #Ahora descargamos el archivo y lo instalamos#
 
 wget https://github.com/yupi-yups/checkmk-telegram-graphs/releases/download/checkmk-telegram/telegram_graphs-2.0.0.mkp
+
 mkp add telegram_graphs-2.0.0.mkp
+
 mkp enable telegram_graphs 2.0.0
 
 #Ya hechos esos pasos tenemos listo el plugin dentro de nuestro sitio#
